@@ -1,12 +1,12 @@
-# SecureFundTransfers README
+# CryproSecureTransfer README
 
 SecureFundTransfers is a React application built with Vite that focuses on enhancing the security of fund transfers between accounts. By incorporating digital signatures and public-key cryptography, the project ensures that only the user with the appropriate private key can initiate fund transfers, providing a robust level of security.
 
 ## Installation
 
-To use SecureFundTransfers, follow these steps:
+To use CryproSecureTransfer, follow these steps:
 
-1. Clone the repository from GitHub: [SecureFundTransfers](https://github.com/your/repository-link)
+1. Clone the repository from GitHub: [CryproSecureTransfer](https://github.com/your/repository-link)
 2. Install Node.js and npm (Node Package Manager) if they are not already installed on your system.
 3. Navigate to the project directory in your terminal or command prompt.
 4. Run the following command to install the project dependencies:
@@ -16,7 +16,7 @@ To use SecureFundTransfers, follow these steps:
 
 
 Usage
-To run the SecureFundTransfers application, follow these steps:
+To run the CryproSecureTransfer application, follow these steps:
 
 Make sure your server is running and configured correctly.
 
