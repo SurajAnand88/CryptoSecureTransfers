@@ -6,7 +6,7 @@ SecureFundTransfers is a React application built with Vite that focuses on enhan
 
 To use CryproSecureTransfer, follow these steps:
 
-1. Clone the repository from GitHub: [CryproSecureTransfer](https://github.com/your/repository-link)
+1. Clone the repository from GitHub: [CryproSecureTransfer](https://github.com/SurajAnand88/CryptoSecureTransfers)
 2. Install Node.js and npm (Node Package Manager) if they are not already installed on your system.
 3. Navigate to the project directory in your terminal or command prompt.
 4. Run the following command to install the project dependencies:
