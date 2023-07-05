@@ -10,38 +10,7 @@ const { keccak256 } = require("ethereum-cryptography/keccak");
 const privateKey = secp.secp256k1.utils.randomPrivateKey();
 const publicKey = secp.secp256k1.getPublicKey(privateKey);
 
-// console.log(toHex(privateKey), toHex(publicKey));
-
 const message = toHex(secp.secp256k1.CURVE.hash("Suraj"));
-
-// const sig = secp.secp256k1.sign(message, privateKey, { recovery: true });
-
-// const sign = new secp.secp256k1.Signature(
-//   2033630933762696605541161575790206731053690621644990335847047981497058368803n,
-//   44691677694009762415188352048753022950941460634409648318350333846945329921689n,
-//   1
-// );
-// console.log(
-//   secp.secp256k1.verify(
-//     sign,
-//     message,
-//     "02b1cd931987c4f6b7f6ea189d7fe54cec0d52f58840299e57b14407d69742ff5f"
-//   )
-// );
-
-// console.log(toHex(sign.recoverPublicKey(message).toRawBytes()));
-
-// const recoverKey = sig.recoverPublicKey(message).toRawBytes();
-// const recoverKey = signature.recoverPublicKey(message).toRawBytes();
-// console.log(secp.secp256k1.verify(sig, message, publicKey));
-// console.log(toHex(recoverKey), toHex(publicKey));
-// console.log(toHex(publicKey), toHex(recoverKey));
-
-// console.log(
-//   toHex(keccak256(privateKey)),
-//   toHex(keccak256(privateKey.slice(1))),
-//   sig
-// );
 
 app.use(cors());
 app.use(express.json());
